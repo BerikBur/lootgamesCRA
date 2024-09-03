@@ -1,0 +1,12 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Или center, если хотите центрировать */
+    padding: 10px; /* Убедитесь, что отступы не слишком большие */
+  }
+  
+  .game-card {
+    width: 120px; /* Ширина карточки */
+    margin: 5px; /* Отступы между карточками */
+  }
+  

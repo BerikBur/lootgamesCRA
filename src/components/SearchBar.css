@@ -1,0 +1,26 @@
+.input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 60px; /* Высота поисковой строки */
+    left: 0;
+    width: 650px;
+    border: 1px solid #ccc;
+    background-color: white;
+    max-height: 500px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
