@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lootgamesCRA/static/css/main.8db9ac52.css",
+    "main.js": "/lootgamesCRA/static/js/main.89351401.js",
+    "static/js/453.7bc4ed73.chunk.js": "/lootgamesCRA/static/js/453.7bc4ed73.chunk.js",
+    "static/media/3d-geometric-shapes-in-natural-background.jpg": "/lootgamesCRA/static/media/3d-geometric-shapes-in-natural-background.00e3e23ad79d9fa8b4b2.jpg",
+    "index.html": "/lootgamesCRA/index.html",
+    "main.8db9ac52.css.map": "/lootgamesCRA/static/css/main.8db9ac52.css.map",
+    "main.89351401.js.map": "/lootgamesCRA/static/js/main.89351401.js.map",
+    "453.7bc4ed73.chunk.js.map": "/lootgamesCRA/static/js/453.7bc4ed73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8db9ac52.css",
+    "static/js/main.89351401.js"
+  ]
+}
