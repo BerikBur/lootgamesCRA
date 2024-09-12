@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-image: url("./universe-mobile-wallpaper-with-planets/2599810.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 10px;
+}
+  
+.logo {
+  width: 170px;
+  height: 50px;
+  background-image: url('loot.png');; /* Замените на изображение логотипа */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+  .button {
+    background-color: transparent; /* Убираем фон */
+    color: #d9e0e7; /* Цвет текста */
+    border: none; /* Убираем рамку */
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    margin-right: 20px; /* Отступ между кнопками */
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .button:hover {
+    text-decoration: underline; /* Добавляем подчеркивание при наведении */
+  }
+  
+
+  /*
+  @media (max-width: 768px) {
+    .headerTop {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .input {
+      width: 100%;
+    }
+  
+    .button {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
+  */
+  

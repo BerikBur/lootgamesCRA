@@ -1,13 +1,17 @@
 /* src/App.css */
 .App {
-  text-align: center;
-  padding: 10px; /* Отступ от края страницы */
+  width: 100%;
+}
+
+.container {
+  width: 1440px;
 }
 
 .background-image {
   width: 100%;
   height: 400px;
-  background-image: url('./assets/images/3d-geometric-shapes-in-natural-background.jpg'); /* Замените на ссылку на изображение из Roblox */
+  /*background-image: url('./assets/images/3d-geometric-shapes-in-natural-background.jpg'); */
+  background-image: url('./assets/images/3d-cartoon-character-djing-party.jpg');
   background-size: cover;
   background-position: center;
 }

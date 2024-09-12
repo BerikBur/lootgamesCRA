@@ -1,10 +1,8 @@
-// src/App.js
 import React, { useEffect, useState } from 'react';
-import Header from './components/Header';
-import GameCard from './components/GameCard'; // Импортируем компонент GameCard
-import './App.css';
+import Home from './pages/home_page1/Home';
 
 function App() {
+  /*
   const totalGames = 144; // Общее количество карточек
   const games = Array.from({ length: totalGames }, (_, index) => ({
     id: index + 1,
@@ -42,10 +40,15 @@ function App() {
       window.removeEventListener('resize', calculateVisibleGames);
     };
   }, []);
+  */
 
   return (
     <div className="App">
-      <Header />
+      <Home />
+      
+      
+      
+      {/*       <Header />
       <div className="background-image"></div>
       <div className="header">
         <h1>Игры</h1>
@@ -54,7 +57,8 @@ function App() {
         {visibleGames.map(game => (
           <GameCard key={game.id} image={game.image} title={game.title} />
         ))}
-      </div>
+      </div>*/}
+
     </div>
   );
 }
