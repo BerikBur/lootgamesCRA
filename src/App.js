@@ -1,8 +1,30 @@
 import React, { useEffect, useState } from 'react';
 import Home from './pages/home_page1/Home';
 
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './pages/home_page1/Home'; // Импортируй свой Header
+import SellPage from './pages/sellPage/SellPage'; // Страница "Продать"
+
+
 function App() {
-  /*
+  return (
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/sell" element={<SellPage />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+
+
+
+/*
+  function App() {
+  
   const totalGames = 144; // Общее количество карточек
   const games = Array.from({ length: totalGames }, (_, index) => ({
     id: index + 1,
@@ -40,7 +62,7 @@ function App() {
       window.removeEventListener('resize', calculateVisibleGames);
     };
   }, []);
-  */
+  
 
   return (
     <div className="App">
@@ -57,10 +79,12 @@ function App() {
         {visibleGames.map(game => (
           <GameCard key={game.id} image={game.image} title={game.title} />
         ))}
-      </div>*/}
+      </div>}
 
     </div>
   );
 }
 
 export default App;
+
+*/

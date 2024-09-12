@@ -11,7 +11,7 @@
     
 }
 
-.container {
+.container_header {
   width: 100%;
   max-width: 1440px;
 
@@ -33,20 +33,20 @@
   margin-left: 10px;
 }
 
-  .button {
-    background-color: transparent; /* Убираем фон */
-    color: #d9e0e7; /* Цвет текста */
-    border: none; /* Убираем рамку */
-    cursor: pointer;
-    font-size: 16px;
-    padding: 0;
-    margin-right: 20px; /* Отступ между кнопками */
-    font-family: 'Orbitron', sans-serif;
-  }
-  
-  .button:hover {
-    text-decoration: underline; /* Добавляем подчеркивание при наведении */
-  }
+.button {
+  background-color: transparent; /* Убираем фон */
+  color: #d9e0e7; /* Цвет текста */
+  border: none; /* Убираем рамку */
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  margin-right: 20px; /* Отступ между кнопками */
+  font-family: 'Orbitron', sans-serif;
+}
+
+.button:hover {
+  text-decoration: underline; /* Добавляем подчеркивание при наведении */
+}
   
 
   /*
@@ -68,3 +68,84 @@
   
   */
   
+
+
+.menu-container {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.dropdown-item {
+  color: #d9e0e7;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.submenu {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.submenu li {
+  list-style-type: none;
+  color: #d9e0e7;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.submenu li:hover {
+  color: #6161e2c5;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}

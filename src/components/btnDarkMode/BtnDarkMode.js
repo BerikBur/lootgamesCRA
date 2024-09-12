@@ -1,10 +1,15 @@
 import './BtnDarkMode.css';
 
-function BtnDarkMode() {
+const BtnDarkMode = () => {
+  const toggleDarkMode = () => {
+    document.body.classList.toggle('dark-mode');
+  };
 
-    return (
-        <></>
-    );
-}
+  return (
+    <button className="btn-dark-mode" onClick={toggleDarkMode}>
+      Тёмный режим
+    </button>
+  );
+};
 
 export default BtnDarkMode;

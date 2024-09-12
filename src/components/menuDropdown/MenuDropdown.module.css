@@ -1,0 +1,52 @@
+/* MenuDropdown.module.css */
+
+.menuContainer {
+  position: relative;
+}
+
+.button {
+  background-color: transparent; /* Пример стиля для кнопки */
+  color: #d9e0e7; /* Цвет текста */
+  border: none; /* Убираем рамку */
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  padding: 10px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  right: 0; /* Выравнивание по правому краю кнопки */
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.dropdownItem {
+  color: #d9e0e7;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.submenu {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.submenu li {
+  list-style-type: none;
+  color: #d9e0e7;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.submenu li:hover {
+  color: #6161e2c5;
+}
