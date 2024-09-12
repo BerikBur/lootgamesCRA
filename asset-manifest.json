@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/lootgamesCRA/static/css/main.21578704.css",
-    "main.js": "/lootgamesCRA/static/js/main.f628bddd.js",
+    "main.css": "/lootgamesCRA/static/css/main.436ee875.css",
+    "main.js": "/lootgamesCRA/static/js/main.ee1843cc.js",
     "static/js/453.7bc4ed73.chunk.js": "/lootgamesCRA/static/js/453.7bc4ed73.chunk.js",
     "static/media/3d-cartoon-character-djing-party.jpg": "/lootgamesCRA/static/media/3d-cartoon-character-djing-party.521f4bdc418404dc8773.jpg",
     "static/media/2599810.jpg": "/lootgamesCRA/static/media/2599810.b2d17d817e5298533730.jpg",
     "static/media/loot.png": "/lootgamesCRA/static/media/loot.c0d8425c8605f00e00e5.png",
     "index.html": "/lootgamesCRA/index.html",
-    "main.21578704.css.map": "/lootgamesCRA/static/css/main.21578704.css.map",
-    "main.f628bddd.js.map": "/lootgamesCRA/static/js/main.f628bddd.js.map",
+    "main.436ee875.css.map": "/lootgamesCRA/static/css/main.436ee875.css.map",
+    "main.ee1843cc.js.map": "/lootgamesCRA/static/js/main.ee1843cc.js.map",
     "453.7bc4ed73.chunk.js.map": "/lootgamesCRA/static/js/453.7bc4ed73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21578704.css",
-    "static/js/main.f628bddd.js"
+    "static/css/main.436ee875.css",
+    "static/js/main.ee1843cc.js"
   ]
 }
